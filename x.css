@@ -1,0 +1,47 @@
+.body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image:
+text-align:center;
+}
+
+.header{
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    background-color: antiquewhite;
+    padding: 20px; 
+    color: black; 
+    text-align: center;
+}
+
+.header h1{
+    font-size: 1000%;
+}
+
+.nav {
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a {
+    color: black;
+    text-align: center;
+    display: inline-block
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    
+}
+header {
+    h1{
+
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+  }
+  
