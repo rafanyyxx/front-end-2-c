@@ -68,69 +68,59 @@ button:hover{
 
 
 
+ 
   .carousel {
     display: block;
     position: relative;
-  }
-  
-  .carousel input[type="radio"] {
-    display: none;
-  }
-  
-  .carousel__items {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel__items {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-  }
-  
-  .carousel__item {
+}
+
+.carousel__item {
     flex: 0 0 100%;
     scroll-snap-align: start;
-  }
-  
-  .carousel_prev, .carousel_next {
+}
+
+.carousel_prev, .carousel_next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 2em;
     height: 2em;
-  }
-  
-  .carousel__prev {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.carousel_prev {
     left: 0.5em;
-  }
-  
-  .carousel__next {
+}
+
+.carousel_next {
     right: 0.5em;
-  }
-  
-  .carousel_prev label, .carousel_next label {
-    background-color: #080808;
-    display: block;
-    opacity: 0.5;
-    transition: opacity 0.15s;
-  }
-  
-  .carousel_prev:hover label, .carousel_next:hover label {
-    opacity: 1;
-  }
-  
-  .carousel__nav {
+}
+
+.carousel__nav {
     display: flex;
     justify-content: center;
     margin-top: 1em;
-  }
-  
-  .carousel__indicator {
+}
+
+.carousel__indicator {
     cursor: pointer;
     border-radius: 50%;
-    border: 1px solid #b10000;
+    border: 1px solid #000cb1;
     width: 1em;
     height: 1em;
     margin: 0 0.5em;
-  }
-  
-  .carousel__indicator:hover {
-    background-color: #db0808;
-  }
+}
